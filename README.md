@@ -1,5 +1,4 @@
 # My Spy
-My Spy
 
 My Spy is a surveillance/monitoring app which works on both a personal computer and a phone. Our computer application can monitor and block internet sites or social networks, and can also block and find out what applications the user has been using, find out what the user has written and set the maximum usage time on the computer. The mobile app monitors SMS messages, phone calls, user’s movements, and the apps he has used. Another part of the app is a communications app which works on both the computer and the mobile phone, and is used for communication, for example, between a child and his parent. Whether computer or mobile, the app can be protected from being uninstalled and having damaged data. Monitoring reports are processed to provide details and for better transparency each report contains charts and statistics.The application is fully customizable in whatever way the user desires. If the user does not want to use a „keylogger“ or monitor the internet, he can turn these functions off. On the other hand if he wants to, with one click in the app he can activate them.
 
@@ -10,8 +9,11 @@ Our priority was also encryption and application security. We encrypt the passwo
 
 ![My Spy Panel](/Images/myspy1.png)
 
+
 ![My Spy Statistics](/Images/myspy2.png)
 
+
 ![My Spy notes and notifications](/Images/myspy3.png)
+
 
 ![My Spy - applications statistics](/Images/myspy4.png)
