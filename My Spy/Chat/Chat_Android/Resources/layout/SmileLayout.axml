@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ScrollView
+        android:id="@+id/scrollviewchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridLayout1"
+            android:columnCount="2"
+            android:layout_gravity="center_horizontal">
+            <ImageButton
+                android:src="@drawable/smile1"
+                android:id="@+id/imageButton1"
+                android:tag="1" />
+            <ImageButton
+                android:src="@drawable/smile2"
+                android:id="@+id/imageButton2"
+                android:tag="2" />
+            <ImageButton
+                android:src="@drawable/smile3"
+                android:id="@+id/imageButton3"
+                android:tag="3" />
+            <ImageButton
+                android:src="@drawable/smile4"
+                android:id="@+id/imageButton4"
+                android:tag="4" />
+            <ImageButton
+                android:src="@drawable/smile5"
+                android:id="@+id/imageButton5"
+                android:tag="5" />
+            <ImageButton
+                android:src="@drawable/smile6"
+                android:id="@+id/imageButton6"
+                android:tag="6" />
+            <ImageButton
+                android:src="@drawable/smile7"
+                android:id="@+id/imageButton7"
+                android:tag="7" />
+            <ImageButton
+                android:src="@drawable/smile8"
+                android:id="@+id/imageButton8"
+                android:tag="8" />
+            <ImageButton
+                android:src="@drawable/smile9"
+                android:id="@+id/imageButton9"
+                android:tag="9" />
+            <ImageButton
+                android:src="@drawable/smile10"
+                android:id="@+id/imageButton10"
+                android:tag="10" />
+            <ImageButton
+                android:src="@drawable/smile11"
+                android:id="@+id/imageButton11"
+                android:tag="11" />
+            <ImageButton
+                android:src="@drawable/smile12"
+                android:id="@+id/imageButton12"
+                android:tag="12" />
+            <ImageButton
+                android:src="@drawable/Smile13"
+                android:id="@+id/imageButton13"
+                android:tag="13" />
+            <ImageButton
+                android:src="@drawable/Smile14"
+                android:id="@+id/imageButton14"
+                android:tag="14" />
+            <ImageButton
+                android:src="@drawable/Smile15"
+                android:id="@+id/imageButton15"
+                android:tag="15" />
+            <ImageButton
+                android:src="@drawable/Smile16"
+                android:id="@+id/imageButton16"
+                android:tag="16" />
+        </GridLayout>
+    </ScrollView>
+</LinearLayout>

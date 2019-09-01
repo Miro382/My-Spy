@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OnlineStatus"
+        android:background="#3F51B5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <ImageView
+            android:src="@drawable/off"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageViewStatus"
+            android:scaleType="fitXY"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp" />
+        <TextView
+            android:text="Offline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewStatus"
+            android:layout_marginLeft="6dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollviewchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/imageButtonSend"
+        android:layout_below="@+id/OnlineStatus">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutchat"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp" />
+    </ScrollView>
+    <ImageButton
+        android:src="@drawable/send"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/imageButtonSend"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop" />
+    <ImageButton
+        android:src="@drawable/smiles"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_toRightOf="@id/imageButtonSend"
+        android:id="@+id/imgButtonSmile"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgButtonSmile"
+        android:id="@+id/editTextMessage"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
